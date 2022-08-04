@@ -1,5 +1,5 @@
 [package]
-name = "prison-test"
+name = "prisoners"
 version = "0.1.0"
 edition = "2021"
 
