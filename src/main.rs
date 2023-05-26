@@ -5,7 +5,7 @@ fn main() {
     let mut g = Game::new(PRISONER_COUNT);
 
     println!("Calculating...");
-    const TOTAL_ROUNDS: i32 = 10_000_000;
+    const TOTAL_ROUNDS: i32 = 1000;
     let mut rounds_won = 0;
     for _ in 0..TOTAL_ROUNDS {
         if g.play() {
